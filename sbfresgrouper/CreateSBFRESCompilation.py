@@ -32,7 +32,7 @@ def createCompilation():
                     print("Skipping " + expectedFile)
 
     print("Created compilation successfully!")
-	
+
     print("\n\n")
 
 if __name__ == "__main__":

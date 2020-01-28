@@ -41,7 +41,7 @@ if __name__ == "__main__":
         os.chdir("fbxextraction")
         LoadAndExportExtractedModels.loadAndExportModels()
         os.chdir(initialWD)
-		
+
         os.chdir("animextraction")
         ExtractAnimations.extractAnimations()
         os.chdir(initialWD)
