@@ -13,6 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sbfresgrouper", "sbfresgrou
 	ProjectSection(SolutionItems) = preProject
 		sbfresgrouper\__init__.py = sbfresgrouper\__init__.py
 		sbfresgrouper\CreateSBFRESCompilation.py = sbfresgrouper\CreateSBFRESCompilation.py
+		sbfresgrouper\DecryptAndGroupBFRESbyActor.py = sbfresgrouper\DecryptAndGroupBFRESbyActor.py
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "animextraction", "animextraction", "{C89C114D-90BF-464E-BBDE-A970A6984A00}"

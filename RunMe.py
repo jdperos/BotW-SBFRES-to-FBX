@@ -1,5 +1,5 @@
 # Required modules
-from sbfresgrouper import CreateSBFRESCompilation
+from sbfresgrouper import CreateSBFRESCompilation, DecryptAndGroupBFRESbyActor
 from bfresextraction import ExtractModelAndTextureData
 from fbxextraction import LoadAndExportExtractedModels
 from packextractor import ExtractPackArchives
@@ -57,8 +57,9 @@ if __name__ == "__main__":
         os.chdir(initialWD)
     
     elif selection == "4": 
-        os.chdir("bfresextraction")
-        ExtractModelAndTextureData.extractModelAndTextureData()
+        os.chdir("sbfresgrouper")
+        # ExtractModelAndTextureData.extractModelAndTextureData()
+        DecryptAndGroupBFRESbyActor.DecryptAndGroupBFRESbyActor()
         os.chdir(initialWD)
     
     elif selection == "5": 
