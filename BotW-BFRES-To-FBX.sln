@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BotW-BFRES-To-FBX", "BotW-BFRES-To-FBX", "{F854030B-787D-49D4-8BA9-BCC2E30A6060}"
+	ProjectSection(SolutionItems) = preProject
+		__init__.py = __init__.py
+		RunMe.py = RunMe.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sbfresgrouper", "sbfresgrouper", "{82E341D3-48C2-4AE5-8A64-E714B642D5EC}"
+	ProjectSection(SolutionItems) = preProject
+		sbfresgrouper\__init__.py = sbfresgrouper\__init__.py
+		sbfresgrouper\CreateSBFRESCompilation.py = sbfresgrouper\CreateSBFRESCompilation.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "animextraction", "animextraction", "{C89C114D-90BF-464E-BBDE-A970A6984A00}"
+	ProjectSection(SolutionItems) = preProject
+		animextraction\__init__.py = animextraction\__init__.py
+		animextraction\ApplyAnimationsToFBXModels.py = animextraction\ApplyAnimationsToFBXModels.py
+		animextraction\exportsingleanim.mel = animextraction\exportsingleanim.mel
+		animextraction\extract.mel = animextraction\extract.mel
+		animextraction\ExtractAnimations.py = animextraction\ExtractAnimations.py
+		animextraction\README.md = animextraction\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "bfresextraction", "bfresextraction", "{B2DC99EE-CDB7-454F-905D-D050FE4E49E9}"
+	ProjectSection(SolutionItems) = preProject
+		bfresextraction\__init__.py = bfresextraction\__init__.py
+		bfresextraction\ExtractModelAndTextureData.py = bfresextraction\ExtractModelAndTextureData.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "customUtilities", "customUtilities", "{A167D269-5C41-4CB1-9A8E-B8E134EA33D4}"
+	ProjectSection(SolutionItems) = preProject
+		customUtilities\__init__.py = customUtilities\__init__.py
+		customUtilities\CommandLineUtils.py = customUtilities\CommandLineUtils.py
+		customUtilities\CustomFileUtils.py = customUtilities\CustomFileUtils.py
+		customUtilities\SimulateKeyboard.py = customUtilities\SimulateKeyboard.py
+		customUtilities\SimulateMouse.py = customUtilities\SimulateMouse.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "fbxextraction", "fbxextraction", "{06C302BD-0736-40CD-BC98-C6A09DCBB95A}"
+	ProjectSection(SolutionItems) = preProject
+		fbxextraction\__init__.py = fbxextraction\__init__.py
+		fbxextraction\BFRES to FBX 2.ms = fbxextraction\BFRES to FBX 2.ms
+		fbxextraction\BFRES to FBX.ms = fbxextraction\BFRES to FBX.ms
+		fbxextraction\BotW Export Preset.fbxexportpreset = fbxextraction\BotW Export Preset.fbxexportpreset
+		fbxextraction\diff.txt = fbxextraction\diff.txt
+		fbxextraction\LoadAndExportExtractedModels.py = fbxextraction\LoadAndExportExtractedModels.py
+		fbxextraction\outputinfo = fbxextraction\outputinfo
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "packextraction", "packextraction", "{F62D5579-05DE-4576-991B-784917553DBE}"
+	ProjectSection(SolutionItems) = preProject
+		packextractor\__init__.py = packextractor\__init__.py
+		packextractor\ExtractPackArchives.py = packextractor\ExtractPackArchives.py
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "proofofconcept", "proofofconcept", "{8876B173-CA1C-4758-82B4-B52CECA5B1E2}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{82E341D3-48C2-4AE5-8A64-E714B642D5EC} = {F854030B-787D-49D4-8BA9-BCC2E30A6060}
+		{C89C114D-90BF-464E-BBDE-A970A6984A00} = {F854030B-787D-49D4-8BA9-BCC2E30A6060}
+		{B2DC99EE-CDB7-454F-905D-D050FE4E49E9} = {F854030B-787D-49D4-8BA9-BCC2E30A6060}
+		{A167D269-5C41-4CB1-9A8E-B8E134EA33D4} = {F854030B-787D-49D4-8BA9-BCC2E30A6060}
+		{06C302BD-0736-40CD-BC98-C6A09DCBB95A} = {F854030B-787D-49D4-8BA9-BCC2E30A6060}
+		{F62D5579-05DE-4576-991B-784917553DBE} = {F854030B-787D-49D4-8BA9-BCC2E30A6060}
+		{8876B173-CA1C-4758-82B4-B52CECA5B1E2} = {F854030B-787D-49D4-8BA9-BCC2E30A6060}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3ED8D779-23B9-4DE2-9C66-9B88EBAAA890}
+	EndGlobalSection
+EndGlobal
